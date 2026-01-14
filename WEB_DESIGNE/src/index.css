@@ -1,0 +1,17 @@
+/* Hide scrollbar but keep scrolling */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none;
+}
+html, body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+
+
+@import "tailwindcss"
