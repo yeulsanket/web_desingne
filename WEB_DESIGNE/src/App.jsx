@@ -10,7 +10,8 @@ import AdvantagesSection from './components/home/AdvantagesSection';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black">
+    
+      <div>
       <Header />
       <main>
         <HeroSection />
@@ -20,8 +21,8 @@ function App() {
         <AdvantagesSection />
       </main>
       <Footer />
-    </div>
-  );
+      </div>)
+    
 }
 
 export default App;
